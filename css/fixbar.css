@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+html, body { width: 100%; height: 100%; position: relative; }
+
+#scroll_fixbar { width: 30px; height: 240px; position: absolute; top: 300px; right: 10px; border: 1px solid #aaa; background-color: #fff; visibility: hidden; opacity: 0; transition: visibility 1s, opacity 1s;  }
+#scroll_fixbar.fix_show { visibility: visible; opacity: 1; transition: visibility 1s, opacity 1s; }
+#scroll_fixbar>li { background-color: transparent; border-bottom: 1px solid #aaa; box-sizing: border-box; width: 30px; height: 30px; }
+#scroll_fixbar>li:last-child { border-bottom: none; }
+#scroll_fixbar>li>a { display: block; width: 20px; height: 20px; padding: 5px; background-size: 20px 20px; background-position: 5px 5px; }
+.fix_1 {  background: url("../images/index/house_1.png") no-repeat; }
+.fix_1:hover {  background: url("../images/index/house_1o.png") no-repeat; background-color: #333; }
+.fix_2 { position: relative; background: url("../images/index/menu_bar2.png") no-repeat; }
+.fix_2:hover {  background: url("../images/index/menu_bar2o.png") no-repeat; background-color: #333; }
+.fix_2.fix_sel { background: url("../images/index/menu_bar2o.png") no-repeat; background-color: #333; }
+.fixbar_menu { position: absolute; width: 100px; background-color: #333;top:-50px; left: -100px; color: #fff; }
+.fixbar_menu>li>a { padding: 5px 0 0 5px; height: 24px; display: block; font-size: 13px; }
+.fixbar_menu>li>a:hover { background-color: #fff; color: #333; }
+.fix_3 {  background: url("../images/index/user_1.png") no-repeat; }
+.fix_3:hover {  background: url("../images/index/user_1o.png") no-repeat; background-color: #333; }
+
+
+.fix_4 {  background: url("../images/index/search_1.png") no-repeat; }
+.fix_4:hover {  background: url("../images/index/search_1o.png") no-repeat; background-color: #333; }
+.fix_5 {  background: url("../images/index/basket_1.png") no-repeat; }
+.fix_5:hover {  background: url("../images/index/basket_1o.png") no-repeat; background-color: #333; }
+.fix_6 {  background: url("../images/index/hart_256.png") no-repeat; }
+.fix_6:hover {  background: url("../images/index/hart_256o.png") no-repeat; background-color: #333; }
+.fix_7 {  background: url("../images/index/g24_au.png") no-repeat; }
+.fix_7:hover {  background: url("../images/index/g24_auo.png") no-repeat; background-color: #333; }
+.fix_8 {  background: url("../images/index/g24_a.png") no-repeat; }
+.fix_8:hover {  background: url("../images/index/g24_ao.png") no-repeat; background-color: #333; }

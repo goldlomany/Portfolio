@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+a { text-decoration: none; color: inherit; }
+input { font: 500 16px dx-hotplace-std, sans-serif; border: none; outline: none; background-color: transparent; }
+
+#hidden_font { position: absolute; top: -100px; left: -100px; visibility: hidden; }
+
+#top_wrap1 { border-bottom: 3px solid #999; width: 100%; height: 80px; padding-top: 10px; display: block; z-index: 3;  }
+#top { width: 1400px; height: 80px; margin: 0 auto; }
+#top header { position: relative; width: 1200px; height: 80px; margin: 0 auto; }
+#top header h1 { width: 320px; height: 80px; position: absolute; left: 100px; bottom: 5px; }
+#top header h1 a { width: 320px; height: 80px; display: block; }
+.m_b { position: absolute; bottom: 5px; left: 15px; width: 24px; height: 20px; padding: 5px 3px; cursor: pointer; }
+.m_b li { width: 100%; height: 3px; background-color: transparent;  margin-bottom: 0.8px; }
+.m_b li:first-child { width: 50%; background-color: #333; transition: width 0.3s; }
+.m_b li:nth-child(3) { background-color: #333; transition: width 0.3s; }
+.m_b li:last-child {  margin-top: 0.8px; width: 30%; background-color: #333; transition: width 0.3s; }
+.m_b:hover { background-color: #333; }
+.m_b:hover li:first-child { width: 100%; background-color: #fff; transition: width 0.3s, background-color 0.3s; }
+.m_b:hover li:nth-child(3) { width: 50%; background-color: #fff; transition: width 0.3s,  background-color 0.3s; }
+.m_b:hover li:last-child { width: 100%; background-color: #fff; transition: width 0.3s,  background-color 0.3s; }
+
+#g_box { width: 131px; margin-right: 9px; float: right; overflow: hidden; }
+.g24 { width: 275px; font: 500 18px/1em hayanbaram, sans-serif; color: #333; }
+.lan { width: 30px; margin-left: 5px; }
+.g_click { cursor: pointer; }
+
+.quick { position: absolute; bottom: 5px; right: 10px; }
+.quick .search { width: 250px; margin-right: 20px; border-bottom: 1px solid #000; }
+.search_1 {  width: 220px; height: 25px; line-height: 25px; color: #666; }
+.quick .search img {float: right; cursor: pointer; }
+.quick li { float: left; width: 70px; height: 24px; line-height: 24px; text-align: right; }
+.quick li:nth-child(5) { width: 100px; }
+.quick li a { width: 100%; font: 500 18px/1em hayanbaram, sans-serif; color: #333;  }
+.quick li a span { width: 0; height: 2px; display: block; background-color: #333; transition: width 0.5s; }
+.quick li a:hover span { width: 100%; transition: width 0.5s; }
+
+
+
+#top_wrap2 { width: 100%; height: 80px; padding-top: 10px; background-color: #333; position: absolute; top: 0; left: 0; z-index: 3; }
+#top_2 { width: 1400px; height: 80px; margin: 0 auto; }
+#top_2 header { position: relative; width: 1200px; height: 80px; margin: 0 auto ; }
+#top_2 header h1 { width: 320px; height: 80px; position: absolute; left: 100px; bottom: 5px; }
+#top_2 header h1 a { width: 320px; height: 80px; display: block; }
+.m_b2 { position: absolute; bottom: 5px; left: 15px; width: 24px; height: 20px; padding: 5px 3px; cursor: pointer; background: url("../images/index/close.png"); }
+
+#g_box_2 { width: 131px; margin-right: 9px; float: right; overflow: hidden; }
+.g24_2 { width: 275px; font: 500 18px/1em hayanbaram, sans-serif; color: #fff; }
+.g_click_2 { cursor: pointer; }
+
+
+.quick_2 { position: absolute; bottom: 5px; right: 10px; }
+.quick_2 .search2 { width: 250px; margin-right: 20px; border-bottom: 1px solid #fff; }
+.search2_1 { width: 220px; height: 25px; line-height: 25px; color: #fff; }
+.quick_2 .search2 img {float: right; cursor: pointer; }
+.quick_2 li { float: left; width: 70px; height: 24px; line-height: 24px; text-align: right; }
+.quick_2 li:nth-child(5) { width: 100px; }
+.quick_2 li a { width: 100%; font: 500 18px/1em hayanbaram, sans-serif; color: #fff;  }
+.quick_2 li a span { width: 0; height: 2px; display: block; background-color: #fff; transition: width 0.5s; }
+.quick_2 li a:hover span { width: 100%; transition: width 0.5s; }
+
+#slide_wrap { width: 100%; height: 30px; background-color: #333; position: absolute; z-index: 3; }
+#slide_menu { width: 1400px; height: 30px; margin: 0 auto;  border-top: 1px solid #ccc; }
+#category { width: 1200px; height: 30px; margin: 0 auto; }
+#category li { width: 100px; height: 30px; margin: 0 5px; float: left; color: #fff; text-align: center; line-height: 30px; }
+#category li a { display: block; font-weight: bold; }
+#category li a:hover { background-color: #fff; color: #333; }
+#category li:first-child { margin-left: 0; }
+#category li:last-child { margin-right: 0; }
